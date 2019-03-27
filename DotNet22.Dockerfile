@@ -1,5 +1,5 @@
 #.Net Core base image
-FROM microsoft/dotnet:2.2-runtime AS build
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
 
 COPY dist /app
 WORKDIR /app
